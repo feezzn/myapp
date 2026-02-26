@@ -26,6 +26,8 @@ myapp/
 
 ```
 
+👨‍💻 Autor
+
 Felipe
 DevOps / Site Reliability Engineer
 
