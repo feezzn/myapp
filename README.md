@@ -23,3 +23,8 @@ myapp/
 └── k8s/
     ├── deployment.yaml
     └── service.yaml
+
+Felipe
+DevOps / Site Reliability Engineer
+
+Projeto criado para estudo e prática de Kubernetes, GitOps e plataforma em nuvem ☁️
