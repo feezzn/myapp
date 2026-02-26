@@ -1,0 +1,30 @@
+# Terraform
+**/.terraform/*
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Sensitive files
+.envrc
+.env
+*.key
+*.pem
+aws/dist/
+**/dist/
+awscliv2.zip
+ssm-plugin.*
+tf.sh
+k.sh
+AccessKey
+*.local.sh
+
+# Local helper scripts (optional)
+*.local.sh
+logs/
+
+# AWS CLI installers / packages
+*.deb
+*.rpm
+*.zip
+iam*

@@ -26,9 +26,8 @@ myapp/
 
 ```
 
-👨‍💻 Autor
+## 👨‍💻 Author
 
-Felipe
-DevOps / Site Reliability Engineer
-
-Projeto criado para estudo e prática de Kubernetes, GitOps e plataforma em nuvem ☁️
+Felipe  
+☁️ Site Reliability / DevOps Engineer  
+Focused on **secure**, **reproducible** and **operable** cloud infrastructure 🚀
