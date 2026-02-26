@@ -24,6 +24,8 @@ myapp/
     ├── deployment.yaml
     └── service.yaml
 
+```
+
 Felipe
 DevOps / Site Reliability Engineer
 
