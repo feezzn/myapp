@@ -1,4 +1,4 @@
-replicaCount: 1
+replicaCount: 2
 
 image:
   repository: nginx
@@ -33,7 +33,6 @@ autoscaling:
   enabled: false
   minReplicas: 1
   maxReplicas: 2
-  replicaCount: 2
   targetCPUUtilizationPercentage: 80
 
 httpRoute:
