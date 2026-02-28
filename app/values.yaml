@@ -31,8 +31,9 @@ ingress:
 
 autoscaling:
   enabled: false
-  minReplicas: 2
+  minReplicas: 1
   maxReplicas: 2
+  replicaCount: 2
   targetCPUUtilizationPercentage: 80
 
 httpRoute:
