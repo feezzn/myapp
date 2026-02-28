@@ -5,14 +5,15 @@ image:
   tag: stable
   pullPolicy: IfNotPresent
 
+serviceAccount:
+  create: true
+  automount: true
+  annotations: {}
+  name: ""
+
 service:
   type: ClusterIP
   port: 80
-
-ingress:
-  enabled: false
-
-resources: {}
 
 ingress:
   enabled: true
@@ -27,3 +28,14 @@ ingress:
       paths:
         - path: /
           pathType: Prefix
+
+autoscaling:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 2
+  targetCPUUtilizationPercentage: 80
+
+httpRoute:
+  enabled: false
+
+resources: {}
