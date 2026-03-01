@@ -25,6 +25,15 @@ myapp/
     └── service.yaml
 
 ```
+---
+
+## 🔗 Related Repositories
+
+- Infrastructure (Terraform): `infra`
+- Application (Helm chart): `infra-gitops`
+
+---
+
 
 ## 👨‍💻 Author
 
